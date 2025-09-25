@@ -13,6 +13,11 @@
   <a href="calc3.php" class="w3-bar-item w3-button">Calculadora Ecuaciones Cuadráticas</a>
 </div>
 
+
+
+<?php include 'calc2HideForm.php'; ?>
+
+
 <!-- Page Content -->
 <div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
@@ -82,9 +87,12 @@ function w3_close() {
 //FUNCIONES CALC2
 //--------------------------------
 
+
+
+//deben reestructurar este codigo, no imprimir eetiquetas de html en un return
 function areaCuad($lado) {
     if (!is_numeric($lado)) {
-        return "<span style='color:red;'>Error: el valor debe ser numérico.</span>";
+        return false;
     }
 
     $resultado = $lado * $lado;
