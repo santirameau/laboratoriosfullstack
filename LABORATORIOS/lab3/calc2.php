@@ -154,7 +154,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 </div>
-
 <script>
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
@@ -175,6 +174,7 @@ function w3_close() {
     <a href="../lab4/Comprobador.php" style="margin:5px; padding:8px 18px; background:#eee; color:#222; border:1px solid #bbb; border-radius:6px; text-decoration:none;">Lab 4</a>
     <a href="../lab5/index.php" style="margin:5px; padding:8px 18px; background:#eee; color:#222; border:1px solid #bbb; border-radius:6px; text-decoration:none;">Lab 5</a>
 </footer>
+<script src="validation.js"></script>
 
 </body>
 </html>
