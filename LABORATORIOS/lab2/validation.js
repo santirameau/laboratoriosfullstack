@@ -13,9 +13,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const numero = parseInt(valor);
 
     if (numero < 1 || numero > 10) {
+
+
       alert("El valor debe estar entre 1 y 10.");
+
+      
       e.preventDefault();
       return;
+    }
+
+
+    function validarform(){
+
+      
     }
 
     // SI TODO ESTA BIEN, SE ENVIA
